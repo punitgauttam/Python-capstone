@@ -1,0 +1,23 @@
+# Datasets - do not commit, redistribute via Kaggle/UCI links in README instead
+data/
+
+# Kaggle credentials - NEVER commit this
+kaggle.json
+.kaggle/
+
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Trained model artifacts are intentionally tracked so deployment does not retrain.

@@ -1,0 +1,25 @@
+# Core data handling
+pandas==2.2.3
+numpy==1.26.4
+joblib==1.4.2
+
+# Downloading datasets
+requests==2.32.3
+kaggle==1.6.17
+
+# EDA / plotting
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# Classical ML models + preprocessing + CV
+scikit-learn==1.5.2
+
+# Gradient boosting (optional but recommended for the "tree model" slot)
+xgboost==2.1.1
+
+# PyTorch (CPU version - use the extra-index-url line below if you need GPU)
+torch==2.4.1
+
+# Notebook environment
+jupyter==1.1.1
+ipykernel==6.29.5
